@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Заказчик" id="7">
+			<DataPath>Объект.Заказчик</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗаказчикКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ЗаказчикРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="ЗаявкиДляЗакрытия" id="10">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.ЗаявкиДляЗакрытия</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЗаявкиДляЗакрытияКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ЗаявкиДляЗакрытияКоманднаяПанель" id="12">
+				<ChildItems>
+					<Button name="ЗаявкиДляЗакрытияЗаполнитьОстатками" id="35">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьОстатками</CommandName>
+						<ExtendedTooltip name="ЗаявкиДляЗакрытияЗаполнитьОстаткамиРасширеннаяПодсказка" id="36"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ЗаявкиДляЗакрытияРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ЗаявкиДляЗакрытияСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ЗаявкиДляЗакрытия</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗаявкиДляЗакрытияСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ЗаявкиДляЗакрытияСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЗаявкиДляЗакрытияСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ЗаявкиДляЗакрытия</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗаявкиДляЗакрытияСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ЗаявкиДляЗакрытияСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЗаявкиДляЗакрытияУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ЗаявкиДляЗакрытия</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗаявкиДляЗакрытияУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ЗаявкиДляЗакрытияУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ЗаявкиДляЗакрытияНомерСтроки" id="23">
+					<DataPath>Объект.ЗаявкиДляЗакрытия.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗаявкиДляЗакрытияНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ЗаявкиДляЗакрытияНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ЗаявкиДляЗакрытияЗаявка" id="26">
+					<DataPath>Объект.ЗаявкиДляЗакрытия.Заявка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗаявкиДляЗакрытияЗаявкаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЗаявкиДляЗакрытияЗаявкаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ЗаявкиДляЗакрытияВыполненнаяРабота" id="29">
+					<DataPath>Объект.ЗаявкиДляЗакрытия.ВыполненнаяРабота</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗаявкиДляЗакрытияВыполненнаяРаботаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЗаявкиДляЗакрытияВыполненнаяРаботаРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ЗаявкиДляЗакрытияЗакрытаяСумма" id="32">
+					<DataPath>Объект.ЗаявкиДляЗакрытия.ЗакрытаяСумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗаявкиДляЗакрытияЗакрытаяСуммаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЗаявкиДляЗакрытияЗакрытаяСуммаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗакрытиеЗаявок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьОстатками" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить остатками</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить остатками</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьОстатками</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.Заработок.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.Заявки.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>
