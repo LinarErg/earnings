@@ -139,38 +139,17 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Заработок</Subsystem>
-			<Subsystem>Лотерея</Subsystem>
-			<Subsystem>Авто</Subsystem>
 			<Role>ПолныеПрава</Role>
-			<CommonModule>АвтоВызовСервера</CommonModule>
-			<Constant>АвтоПоУмолчанию</Constant>
 			<Catalog>Заказчики</Catalog>
-			<Catalog>ВидЛотери</Catalog>
-			<Catalog>Авто</Catalog>
-			<Catalog>РаботыПоАвто</Catalog>
 			<Document>Заявки</Document>
 			<Document>ЗакрытиеЗаявок</Document>
-			<Document>Купил</Document>
-			<Document>Заработал</Document>
-			<Document>УстановитьПробег</Document>
-			<Document>ВыполненноеТО</Document>
-			<Document>РегламентноеТО</Document>
 			<Enum>ВариантыГруппировкиОтчетаЗаработок</Enum>
-			<Report>Долги</Report>
-			<Report>Заработок</Report>
-			<Report>ВыполненныеРаботы</Report>
 			<DataProcessor>РабочийСтол</DataProcessor>
 			<DataProcessor>обДолги</DataProcessor>
 			<DataProcessor>обЗаработок</DataProcessor>
 			<DataProcessor>обВыполненныеРаботы</DataProcessor>
-			<DataProcessor>обВыигрыши</DataProcessor>
-			<DataProcessor>обОборотыЛот</DataProcessor>
-			<InformationRegister>ПробегАвто</InformationRegister>
-			<InformationRegister>ПредстоящиеТО</InformationRegister>
 			<AccumulationRegister>Заработок</AccumulationRegister>
 			<AccumulationRegister>Заявки</AccumulationRegister>
-			<AccumulationRegister>Лотерея</AccumulationRegister>
-			<AccumulationRegister>ТО</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

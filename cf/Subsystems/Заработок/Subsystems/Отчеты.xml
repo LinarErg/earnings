@@ -15,9 +15,9 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Долги</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Заработок</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ВыполненныеРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f1c8eb31-e421-4a82-be99-0a68eec0fd41</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5025f0b7-71ef-4a1e-a096-789162137315</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5b7fc9f7-b4d2-4fec-b19c-116fcb462c16</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВариантыГруппировкиОтчетаЗаработок</xr:Item>
 			</Content>
 		</Properties>
