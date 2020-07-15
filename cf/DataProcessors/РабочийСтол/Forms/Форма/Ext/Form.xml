@@ -18,6 +18,7 @@
 					<v8:content>Группа страницы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="21"/>
 			<ChildItems>
 				<Page name="ГруппаСтраницаЗаработок" id="22">

@@ -14,23 +14,23 @@
 		<Metadata name="Configuration.Заработок" id="cbc3ef10-8498-4171-8944-75afc38b2913" configVersion="1130197143738340a9f7f018b0f8f01800000000"/>
 		<Metadata name="Configuration.Заработок.HomePageWorkArea" id="3f8c3046-9e76-42a9-8953-84b0eabe74d6.8" configVersion="02f295e35bbc6a4081cc1a819be386ad00000000"/>
 		<Metadata name="DataProcessor.РабочийСтол" id="4b3e12ca-334c-4096-94b5-dee7fff0c898" configVersion="5afb26be0c41af4c8ff795542abd607b00000000"/>
-		<Metadata name="DataProcessor.РабочийСтол.Form.Форма" id="54024200-4e1a-4fec-b87e-6108522f68c4" configVersion="98299b37a1218e46a133fb11bd33137c00000000"/>
-		<Metadata name="DataProcessor.РабочийСтол.Form.Форма.Form" id="54024200-4e1a-4fec-b87e-6108522f68c4.0" configVersion="68fd58dec3f4814c8ae210657b40856400000000"/>
+		<Metadata name="DataProcessor.РабочийСтол.Form.Форма" id="54024200-4e1a-4fec-b87e-6108522f68c4" configVersion="b8579fb95b2cfc409a44f88d285aefe400000000"/>
+		<Metadata name="DataProcessor.РабочийСтол.Form.Форма.Form" id="54024200-4e1a-4fec-b87e-6108522f68c4.0" configVersion="ae69741d10fb0d4daaa5b122c938e4fd00000000"/>
 		<Metadata name="DataProcessor.обВыполненныеРаботы" id="662f69d4-339e-4deb-be7a-fa7a9350d178" configVersion="8e760f54fa6e09459ed644c9130ec53f00000000"/>
 		<Metadata name="DataProcessor.обВыполненныеРаботы.Form.Форма" id="e5021d09-d5cc-47e3-862d-9bd870e59d1d" configVersion="45f10ee74731084385e3cf7a7d4bdeb300000000"/>
 		<Metadata name="DataProcessor.обВыполненныеРаботы.Form.Форма.Form" id="e5021d09-d5cc-47e3-862d-9bd870e59d1d.0" configVersion="b36bae1e3649404c959734397548751000000000"/>
 		<Metadata name="DataProcessor.обДолги" id="cc6bb68b-85a2-49db-9a0d-85e82ebebf60" configVersion="ddf9e9975244104f8233e96ab60f313000000000"/>
 		<Metadata name="DataProcessor.обДолги.Form.Форма" id="60729f2a-bf2f-4108-843c-01d479594454" configVersion="4284d293dc564141a36ecfe6a77671fb00000000"/>
 		<Metadata name="DataProcessor.обДолги.Form.Форма.Form" id="60729f2a-bf2f-4108-843c-01d479594454.0" configVersion="7b7216e3201a5b40a934464529a2251300000000"/>
-		<Metadata name="DataProcessor.обДолги.Template.Макет" id="44efad58-7ccc-4e63-bbe1-f4ff8083a022" configVersion="3af653d450f8c0459eca035d8fe077dd00000000"/>
-		<Metadata name="DataProcessor.обДолги.Template.Макет.Template" id="44efad58-7ccc-4e63-bbe1-f4ff8083a022.0" configVersion="a0be39797116104a9d92b9df3ae5d37300000000"/>
+		<Metadata name="DataProcessor.обДолги.Template.Макет" id="44efad58-7ccc-4e63-bbe1-f4ff8083a022" configVersion="5cdf476fe95d9c44b885d13b6b9d9b4800000000"/>
+		<Metadata name="DataProcessor.обДолги.Template.Макет.Template" id="44efad58-7ccc-4e63-bbe1-f4ff8083a022.0" configVersion="f99623f84853f146bf0382ae874b6e2400000000"/>
 		<Metadata name="DataProcessor.обЗаработок" id="fe72b131-9767-49bd-94ef-160aa4a57249" configVersion="0d0c917914459a4f9a6d9369bd04d49300000000">
 			<Metadata name="DataProcessor.обЗаработок.Attribute.ВариантГруппировки" id="5918181e-76fb-49b6-8bde-ecf068487391"/>
 		</Metadata>
-		<Metadata name="DataProcessor.обЗаработок.Form.Форма" id="ae980bee-b1d2-4632-be96-8104eb823431" configVersion="4ba5b30a9902d749a2675c1b1ca0e2c700000000"/>
-		<Metadata name="DataProcessor.обЗаработок.Form.Форма.Form" id="ae980bee-b1d2-4632-be96-8104eb823431.0" configVersion="8482bd65b5b59849b4419788e2b5d94000000000"/>
-		<Metadata name="DataProcessor.обЗаработок.Template.Макет" id="772a795a-b8d4-4a70-9559-0dd4b4d16d05" configVersion="1941193724b38f489ee25fcb6100977400000000"/>
-		<Metadata name="DataProcessor.обЗаработок.Template.Макет.Template" id="772a795a-b8d4-4a70-9559-0dd4b4d16d05.0" configVersion="8e364d517535ea4cbe738eeeff67df5d00000000"/>
+		<Metadata name="DataProcessor.обЗаработок.Form.Форма" id="ae980bee-b1d2-4632-be96-8104eb823431" configVersion="41187c46100590419974ea84238f4ef800000000"/>
+		<Metadata name="DataProcessor.обЗаработок.Form.Форма.Form" id="ae980bee-b1d2-4632-be96-8104eb823431.0" configVersion="77a0a1602005324e96bd7c3a21754fc200000000"/>
+		<Metadata name="DataProcessor.обЗаработок.Template.Макет" id="772a795a-b8d4-4a70-9559-0dd4b4d16d05" configVersion="8f7826e59b28b149b91c6af8e133b43200000000"/>
+		<Metadata name="DataProcessor.обЗаработок.Template.Макет.Template" id="772a795a-b8d4-4a70-9559-0dd4b4d16d05.0" configVersion="e5d290e60366b948b1ac3dd14d70bee000000000"/>
 		<Metadata name="Document.ЗакрытиеЗаявок" id="ca36bad5-ba34-4c4d-8821-94cbd091c3f4" configVersion="968aa3d4bab6ef43ba817a5b740072eb00000000">
 			<Metadata name="Document.ЗакрытиеЗаявок.TabularSection.ЗаявкиДляЗакрытия.Attribute.ВыполненнаяРабота" id="02796787-c6ca-489b-b988-8e02951e3288"/>
 			<Metadata name="Document.ЗакрытиеЗаявок.TabularSection.ЗаявкиДляЗакрытия" id="52d15b1e-30e3-4553-9904-c1f08470d4e0"/>
