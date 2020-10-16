@@ -17,10 +17,10 @@
 			<Metadata name="Catalog.Пароли.Attribute.Комментарий" id="78b2e202-aeec-4d6a-898a-f4671acdc6fd"/>
 			<Metadata name="Catalog.Пароли.Attribute.Пароль" id="7c37f094-fb7f-4c3c-9f6e-c5586a5208a5"/>
 		</Metadata>
-		<Metadata name="Catalog.Пароли.Form.ФормаСписка" id="7d9e690b-4612-48e6-ac0c-7e976ff3028f" configVersion="d0ee010dd4c96a4c8dff3ebc884f5a2900000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаСписка.Form" id="7d9e690b-4612-48e6-ac0c-7e976ff3028f.0" configVersion="a280685fa975134a8e6e0a8ab703c47d00000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="df31b825-5257-49ea-915d-378f1cf4d6e2" configVersion="84e9ea1b25f6ff4cad130340c83038d400000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="df31b825-5257-49ea-915d-378f1cf4d6e2.0" configVersion="b1e139a178353f4e9044d1f2093c35a200000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаСписка" id="7d9e690b-4612-48e6-ac0c-7e976ff3028f" configVersion="749b9793e11cd443a7a15424f9dc221100000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаСписка.Form" id="7d9e690b-4612-48e6-ac0c-7e976ff3028f.0" configVersion="62e15e83c3ced0459947e889b422016100000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="df31b825-5257-49ea-915d-378f1cf4d6e2" configVersion="8ce8abaf7e6bab4e9044125ea2edcb8100000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="df31b825-5257-49ea-915d-378f1cf4d6e2.0" configVersion="84832622c33017439157e15c0c7512e200000000"/>
 		<Metadata name="Configuration.Заработок" id="cbc3ef10-8498-4171-8944-75afc38b2913" configVersion="d9bf73ddd3ec934ab50e9a3a275e02c600000000"/>
 		<Metadata name="Configuration.Заработок.HomePageWorkArea" id="3f8c3046-9e76-42a9-8953-84b0eabe74d6.8" configVersion="02f295e35bbc6a4081cc1a819be386ad00000000"/>
 		<Metadata name="DataProcessor.РабочийСтол" id="4b3e12ca-334c-4096-94b5-dee7fff0c898" configVersion="5afb26be0c41af4c8ff795542abd607b00000000"/>
