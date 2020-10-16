@@ -11,7 +11,7 @@
 			<Metadata name="AccumulationRegister.Заявки.Resource.Сумма" id="aadaa9ab-3cad-4617-b1bf-a4745ed3e16f"/>
 		</Metadata>
 		<Metadata name="Catalog.Заказчики" id="d1cca881-7adc-4309-af6d-282f3ef70c8a" configVersion="5246fd552d7ff04fbab58ff04fab350a00000000"/>
-		<Metadata name="Catalog.Пароли" id="1c1e5dbb-3c2f-4a79-a5fe-0670127b002f" configVersion="8e1eddccfd25054e9a25aaca540ea7ed00000000">
+		<Metadata name="Catalog.Пароли" id="1c1e5dbb-3c2f-4a79-a5fe-0670127b002f" configVersion="67b6374a827a8e4d856a0bdceea1a59d00000000">
 			<Metadata name="Catalog.Пароли.Attribute.Учетка" id="3d954af8-bd1f-42ec-8719-685c9e9f7e95"/>
 			<Metadata name="Catalog.Пароли.Attribute.Комментарий" id="78b2e202-aeec-4d6a-898a-f4671acdc6fd"/>
 			<Metadata name="Catalog.Пароли.Attribute.Пароль" id="7c37f094-fb7f-4c3c-9f6e-c5586a5208a5"/>
