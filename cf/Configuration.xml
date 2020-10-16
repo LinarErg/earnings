@@ -139,8 +139,10 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Заработок</Subsystem>
+			<Subsystem>Пароли</Subsystem>
 			<Role>ПолныеПрава</Role>
 			<Catalog>Заказчики</Catalog>
+			<Catalog>Пароли</Catalog>
 			<Document>Заявки</Document>
 			<Document>ЗакрытиеЗаявок</Document>
 			<Enum>ВариантыГруппировкиОтчетаЗаработок</Enum>
