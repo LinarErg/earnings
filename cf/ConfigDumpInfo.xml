@@ -11,7 +11,8 @@
 			<Metadata name="AccumulationRegister.Заявки.Resource.Сумма" id="aadaa9ab-3cad-4617-b1bf-a4745ed3e16f"/>
 		</Metadata>
 		<Metadata name="Catalog.Заказчики" id="d1cca881-7adc-4309-af6d-282f3ef70c8a" configVersion="5246fd552d7ff04fbab58ff04fab350a00000000"/>
-		<Metadata name="Catalog.Пароли" id="1c1e5dbb-3c2f-4a79-a5fe-0670127b002f" configVersion="67b6374a827a8e4d856a0bdceea1a59d00000000">
+		<Metadata name="Catalog.Логины" id="8f2d3e03-174a-4ba7-9f4c-a572cf099a7e" configVersion="eb56e536c076234aa7f7b91884534c9f00000000"/>
+		<Metadata name="Catalog.Пароли" id="1c1e5dbb-3c2f-4a79-a5fe-0670127b002f" configVersion="0b6e06a870d9f84e9bbe1912e8e4380100000000">
 			<Metadata name="Catalog.Пароли.Attribute.Учетка" id="3d954af8-bd1f-42ec-8719-685c9e9f7e95"/>
 			<Metadata name="Catalog.Пароли.Attribute.Комментарий" id="78b2e202-aeec-4d6a-898a-f4671acdc6fd"/>
 			<Metadata name="Catalog.Пароли.Attribute.Пароль" id="7c37f094-fb7f-4c3c-9f6e-c5586a5208a5"/>
@@ -20,7 +21,7 @@
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка.Form" id="7d9e690b-4612-48e6-ac0c-7e976ff3028f.0" configVersion="a280685fa975134a8e6e0a8ab703c47d00000000"/>
 		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="df31b825-5257-49ea-915d-378f1cf4d6e2" configVersion="84e9ea1b25f6ff4cad130340c83038d400000000"/>
 		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="df31b825-5257-49ea-915d-378f1cf4d6e2.0" configVersion="b1e139a178353f4e9044d1f2093c35a200000000"/>
-		<Metadata name="Configuration.Заработок" id="cbc3ef10-8498-4171-8944-75afc38b2913" configVersion="66db2195d015bf48b35133c2812629b900000000"/>
+		<Metadata name="Configuration.Заработок" id="cbc3ef10-8498-4171-8944-75afc38b2913" configVersion="d9bf73ddd3ec934ab50e9a3a275e02c600000000"/>
 		<Metadata name="Configuration.Заработок.HomePageWorkArea" id="3f8c3046-9e76-42a9-8953-84b0eabe74d6.8" configVersion="02f295e35bbc6a4081cc1a819be386ad00000000"/>
 		<Metadata name="DataProcessor.РабочийСтол" id="4b3e12ca-334c-4096-94b5-dee7fff0c898" configVersion="5afb26be0c41af4c8ff795542abd607b00000000"/>
 		<Metadata name="DataProcessor.РабочийСтол.Form.Форма" id="54024200-4e1a-4fec-b87e-6108522f68c4" configVersion="b8579fb95b2cfc409a44f88d285aefe400000000"/>
@@ -81,6 +82,6 @@
 		<Metadata name="Subsystem.Заработок.Subsystem.Обработки" id="bfa89eb3-0b76-4ee4-81eb-9bd3453bb12a" configVersion="64a952e369d47b4f941e229cf0deeb6c00000000"/>
 		<Metadata name="Subsystem.Заработок.Subsystem.Отчеты" id="569ae074-24fd-4265-ab94-cf9e248a5416" configVersion="6b3d50465700994db3965ce0cf88cf8800000000"/>
 		<Metadata name="Subsystem.Заработок.Subsystem.Справочники" id="d3da1169-f96c-47a3-bea0-ed3b64782053" configVersion="5769f3f587a3d04da43f19698a011c2800000000"/>
-		<Metadata name="Subsystem.Пароли" id="4bf190a4-2981-41d4-a183-3aa10f267c26" configVersion="5fe07815d0c57448a77b46fb6c20776b00000000"/>
+		<Metadata name="Subsystem.Пароли" id="4bf190a4-2981-41d4-a183-3aa10f267c26" configVersion="0e6ed4507e435a4d920401d41f30aa5c00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

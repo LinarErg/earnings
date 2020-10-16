@@ -143,6 +143,7 @@
 			<Role>ПолныеПрава</Role>
 			<Catalog>Заказчики</Catalog>
 			<Catalog>Пароли</Catalog>
+			<Catalog>Логины</Catalog>
 			<Document>Заявки</Document>
 			<Document>ЗакрытиеЗаявок</Document>
 			<Enum>ВариантыГруппировкиОтчетаЗаработок</Enum>
