@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -18,7 +18,6 @@
 					<v8:content>Группа страницы</v8:content>
 				</v8:item>
 			</ToolTip>
-			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="21"/>
 			<ChildItems>
 				<Page name="ГруппаСтраницаЗаработок" id="22">
@@ -165,6 +164,260 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаСтраницаДоходыРасходы" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы/Расходы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница доходы расходы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаДоходыРасходыРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаТекущиеДанныеПоДоходамРасходам" id="42">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа текущие данные по доходам расходам</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа текущие данные по доходам расходам</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаТекущиеДанныеПоДоходамРасходамРасширеннаяПодсказка" id="43"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаДоходыРасходыПериод" id="52">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа доходы расходы период</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа доходы расходы период</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаДоходыРасходыПериодРасширеннаяПодсказка" id="53"/>
+									<ChildItems>
+										<Button name="УбавитьМесяц" id="59">
+											<Type>UsualButton</Type>
+											<Representation>Picture</Representation>
+											<CommandName>Form.Command.УбавитьМесяцИзДаты</CommandName>
+											<Picture>
+												<xr:Ref>StdPicture.GoBack</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="УбавитьМесяцРасширеннаяПодсказка" id="60"/>
+										</Button>
+										<LabelField name="ПредставлениеДаты" id="54">
+											<DataPath>ПредставлениеДаты</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<Font ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="ПредставлениеДатыКонтекстноеМеню" id="55"/>
+											<ExtendedTooltip name="ПредставлениеДатыРасширеннаяПодсказка" id="56"/>
+										</LabelField>
+										<Button name="ДобавитьМесяц" id="57">
+											<Type>UsualButton</Type>
+											<Representation>Picture</Representation>
+											<CommandName>Form.Command.ДобавитьМесяцКДате</CommandName>
+											<Picture>
+												<xr:Ref>StdPicture.GoForward</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="ДобавитьМесяцРасширеннаяПодсказка" id="58"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаСуммыДоходовРасходов" id="50">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа суммы доходов расходов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа суммы доходов расходов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСуммыДоходовРасходовРасширеннаяПодсказка" id="51"/>
+									<ChildItems>
+										<InputField name="СуммаДоходов" id="44">
+											<DataPath>СуммаДоходов</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доход</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СуммаДоходовКонтекстноеМеню" id="45"/>
+											<ExtendedTooltip name="СуммаДоходовРасширеннаяПодсказка" id="46"/>
+										</InputField>
+										<InputField name="СуммаРасходов" id="47">
+											<DataPath>СуммаРасходов</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расход</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СуммаРасходовКонтекстноеМеню" id="48"/>
+											<ExtendedTooltip name="СуммаРасходовРасширеннаяПодсказка" id="49"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДоходыРасходыДокументы" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Документы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа доходы расходы документы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаДоходыРасходыДокументыРасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<Button name="ОткрытьСписокДоходы" id="26">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОткрытьСписокДоходы</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Document</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доходы</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьСписокДоходыРасширеннаяПодсказка" id="27"/>
+								</Button>
+								<Button name="ОткрытьСписокРасходы" id="28">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОткрытьСписокРасходы</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Document</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расходы</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьСписокРасходыРасширеннаяПодсказка" id="29"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДоходыРасходыОтчеты" id="32">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа доходы расходы отчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаДоходыРасходыОтчетыРасширеннаяПодсказка" id="33"/>
+							<ChildItems>
+								<Button name="ОткрытьОтчетДоходыРасходы" id="40">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОткрытьОтчетДоходыРасходы</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Report</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ОткрытьОтчетДоходыРасходыРасширеннаяПодсказка" id="41"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДоходыРасходыСправочники" id="34">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Справочники</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа доходы расходы справочники</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаДоходыРасходыСправочникиРасширеннаяПодсказка" id="35"/>
+							<ChildItems>
+								<Button name="ОткрытьВидыДоходов" id="36">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОткрытьВидыДоходов</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Catalog</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Виды доходов</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьВидыДоходовРасширеннаяПодсказка" id="37"/>
+								</Button>
+								<Button name="ОткрытьСтатьиРасходов" id="38">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОткрытьСтатьиРасходов</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Catalog</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Статьи расходов</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьСтатьиРасходовРасширеннаяПодсказка" id="39"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -191,27 +444,43 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Пробег" id="3">
+		<Attribute name="СуммаДоходов" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Пробег</v8:content>
+					<v8:content>Сумма доходов</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:FractionDigits>2</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПробегДата" id="4">
+		<Attribute name="СуммаРасходов" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Пробег дата</v8:content>
+					<v8:content>Сумма расходов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущаяДатаПриОткрытии" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая дата при открытии</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -221,56 +490,20 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="АвтоПоУмолчанию" id="5">
+		<Attribute name="ПредставлениеДаты" id="6">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Авто по умолчанию</v8:content>
+					<v8:content>Представление даты</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeId>1913b4bc-6283-4240-9101-b1802a263c35</v8:TypeId>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
-		</Attribute>
-		<Attribute name="ТЗБлижайшиеРаботы" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ТЗБлижайшие работы</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
-			</Type>
-			<Columns>
-				<Column name="Пробег" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пробег</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Column>
-				<Column name="Работа" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Работа</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:TypeId>f3bdcd36-c167-4c9c-b45e-e296f423198a</v8:TypeId>
-					</Type>
-				</Column>
-			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -401,6 +634,111 @@
 			</ToolTip>
 			<Action>СохранитьНастройки</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОткрытьСписокДоходы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список доходы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список доходы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСписокДоходы</Action>
+		</Command>
+		<Command name="ОткрытьСписокРасходы" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список расходы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список расходы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСписокРасходы</Action>
+		</Command>
+		<Command name="ОткрытьВидыДоходов" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть виды доходов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть виды доходов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьВидыДоходов</Action>
+		</Command>
+		<Command name="ОткрытьСтатьиРасходов" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть статьи расходов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть статьи расходов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСтатьиРасходов</Action>
+		</Command>
+		<Command name="ОткрытьОтчетДоходыРасходы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доходы/Расходы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть отчет доходы расходы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОтчетДоходыРасходы</Action>
+		</Command>
+		<Command name="ДобавитьМесяцКДате" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить месяц к дате</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить месяц к дате</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьМесяцКДате</Action>
+		</Command>
+		<Command name="УбавитьМесяцИзДаты" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убавить месяц из даты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убавить месяц из даты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УбавитьМесяцИзДаты</Action>
 		</Command>
 	</Commands>
 </Form>
