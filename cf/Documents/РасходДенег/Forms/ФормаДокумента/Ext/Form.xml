@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -16,6 +19,11 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="РегулярныйРасход" id="16">
+			<DataPath>Объект.РегулярныйРасход</DataPath>
+			<ContextMenu name="РегулярныйРасходКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="РегулярныйРасходРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="СтатьяРасходов" id="10">
 			<DataPath>Объект.СтатьяРасходов</DataPath>

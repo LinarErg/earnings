@@ -17,6 +17,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пароли</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Логины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменСАвтономнымСервером</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

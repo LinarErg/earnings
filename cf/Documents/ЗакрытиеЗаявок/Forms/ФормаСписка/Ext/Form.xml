@@ -85,7 +85,13 @@
 					<ExtendedTooltip name="ЗаказчикРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="ЗакрытаяСумма" id="28">
-					<DataPath>~Список.ЗакрытаяСумма</DataPath>
+					<DataPath>Список.СуммаИтого</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ЗакрытаяСуммаКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ЗакрытаяСуммаРасширеннаяПодсказка" id="30"/>
 				</LabelField>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="9dbdd6ee-8ba2-4fa5-9964-820667ffad2d">
+		<Name>Бензин</Name>
+		<Code>000000003</Code>
+		<Description>Бензин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9635c031-9d7e-48ba-b089-7bc8c7574095">
+		<Name>ДетскиеТовары</Name>
+		<Code>000000011</Code>
+		<Description>Детские товары</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8dd9a269-7a57-4da3-887f-d95f63c92a1b">
+		<Name>ДетскийСад</Name>
+		<Code>000000016</Code>
+		<Description>Детский сад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bf26b924-d595-438e-95c2-c2858a903ee2">
+		<Name>Здоровье</Name>
+		<Code>000000006</Code>
+		<Description>Здоровье</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee978f56-49e1-4f44-8bc8-db4b3644a410">
+		<Name>Инвестиции</Name>
+		<Code>000000010</Code>
+		<Description>Инвестиции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b44aefe4-559f-427a-a9fc-e30226f975f5">
+		<Name>Ипотека</Name>
+		<Code>000000015</Code>
+		<Description>Ипотека</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="09afe63a-ae2c-4327-96aa-bceb12d5d714">
+		<Name>КафеРестораныДоставка</Name>
+		<Code>000000009</Code>
+		<Description>Кафе рестораны доставка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9d70caed-ee48-4994-bf17-3d5cb1908a03">
+		<Name>КомунальныеПлатежи</Name>
+		<Code>000000008</Code>
+		<Description>Комунальные платежи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6db38393-5a5c-477b-b1bc-79c41b82e1ee">
+		<Name>Красота</Name>
+		<Code>000000005</Code>
+		<Description>Красота</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a80eba40-0cce-423b-a255-62c5864fba07">
+		<Name>ОбслуживаниеАвто</Name>
+		<Code>000000004</Code>
+		<Description>Обслуживание авто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="07d84cea-77b0-4961-9fee-0e78e376af07">
+		<Name>ОдеждаОбувь</Name>
+		<Code>000000014</Code>
+		<Description>Одежда обувь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8637041-f520-4c0b-a8a9-a6ff61eb4126">
+		<Name>Подарки</Name>
+		<Code>000000007</Code>
+		<Description>Подарки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="042632b5-5524-43ce-bb86-cbd60f9b3fb8">
+		<Name>ПродуктыХозТовары</Name>
+		<Code>000000001</Code>
+		<Description>Продукты/Хоз. товары</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb2eebba-339f-49bf-ba73-a8e2cbe2ef12">
+		<Name>ПрочиеРасходы</Name>
+		<Code>000000013</Code>
+		<Description>Прочие расходы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dbe05a6c-cda6-4fa0-937c-380dc03bca95">
+		<Name>Связь</Name>
+		<Code>000000012</Code>
+		<Description>Связь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="442d5205-688d-4891-ba11-0901371bbb68">
+		<Name>ХозТовары</Name>
+		<Code>000000002</Code>
+		<Description>Хоз. товары</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

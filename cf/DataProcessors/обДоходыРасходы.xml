@@ -103,6 +103,7 @@
 				</Properties>
 			</Attribute>
 			<Form>Форма</Form>
+			<Template>Макет</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

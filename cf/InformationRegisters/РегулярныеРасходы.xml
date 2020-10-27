@@ -2,48 +2,48 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<InformationRegister uuid="dbce6e83-7a01-46b6-b993-317adcff2596">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.РегулярныеПлатежи" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.РегулярныеРасходы" category="Record">
 				<xr:TypeId>c256cb28-1951-4b62-a74c-e68075e64351</xr:TypeId>
 				<xr:ValueId>9e00d0c3-3fc0-497f-991d-6462acf8baa9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.РегулярныеПлатежи" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.РегулярныеРасходы" category="Manager">
 				<xr:TypeId>d947826a-07fb-4011-a3a5-64129716a7e5</xr:TypeId>
 				<xr:ValueId>021ee49d-f0b6-43c0-9de4-8cb643c6fc0c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.РегулярныеПлатежи" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.РегулярныеРасходы" category="Selection">
 				<xr:TypeId>b251b8e3-d8a6-40c2-becd-5551eebb26e9</xr:TypeId>
 				<xr:ValueId>566bb26e-808f-4de0-9b72-1c584994b55e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.РегулярныеПлатежи" category="List">
+			<xr:GeneratedType name="InformationRegisterList.РегулярныеРасходы" category="List">
 				<xr:TypeId>473df54c-0d56-4020-81e6-d1f7ccb97445</xr:TypeId>
 				<xr:ValueId>512f0005-1aa8-4cd8-ba14-fdf46fb9da40</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.РегулярныеПлатежи" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.РегулярныеРасходы" category="RecordSet">
 				<xr:TypeId>3cf8a9b0-c021-4f15-9eab-386dab5ac4d4</xr:TypeId>
 				<xr:ValueId>28bdb4e1-deee-471c-89c2-ff81e1bce4d8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.РегулярныеПлатежи" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.РегулярныеРасходы" category="RecordKey">
 				<xr:TypeId>1e9fe102-d431-4bd1-be68-5619d77b6d52</xr:TypeId>
 				<xr:ValueId>465b7c95-85ea-406a-98a8-3440a63f267b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.РегулярныеПлатежи" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.РегулярныеРасходы" category="RecordManager">
 				<xr:TypeId>5ca0ef49-fb44-4090-9242-a8b5a6ec3278</xr:TypeId>
 				<xr:ValueId>08d3d76a-dbd6-4104-8216-289de7f3ba84</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>РегулярныеПлатежи</Name>
+			<Name>РегулярныеРасходы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регулярные платежи</v8:content>
+					<v8:content>Регулярные расходы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
-			<DefaultListForm/>
+			<DefaultRecordForm>InformationRegister.РегулярныеРасходы.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.РегулярныеРасходы.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
@@ -108,18 +108,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="7a6897f3-0054-44cd-aa59-ebef1cd97425">
+			<Dimension uuid="57e2fe1b-3592-4236-aa09-57dc9775a67e">
 				<Properties>
-					<Name>СтатьяРасхода</Name>
+					<Name>РегулулярныйРасход</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статья расхода</v8:content>
+							<v8:content>Регулулярный расход</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.СтатьиРасходов</v8:Type>
+						<v8:Type>cfg:CatalogRef.РегулярныйРасход</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -150,52 +150,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="ea0aab09-8823-4ef8-a051-c5384e903f63">
-				<Properties>
-					<Name>Комментарий</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Dimension>
+			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

@@ -22,7 +22,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасходДенег</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходДенег</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обДоходыРасходы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РегулярныеПлатежи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РегулярныеРасходы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменСАвтономнымСервером</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РегулярныйРасход</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РабочийСтол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДатаЗапретаИЗменения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

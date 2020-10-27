@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="9648f7cd-e20f-4915-b2ef-3a0f1b7b6444">
+		<Name>ДополнительныйЗаработок</Name>
+		<Code>000000002</Code>
+		<Description>Дополнительный заработок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a43aa169-fefd-4048-be8b-f51af5a7d366">
+		<Name>КэшБэк</Name>
+		<Code>000000003</Code>
+		<Description>Кэш бэк</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8018ddc9-c6dd-4854-a037-123689359538">
+		<Name>ОсновнойЗаработок</Name>
+		<Code>000000001</Code>
+		<Description>Основной заработок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="76c371fc-b1e4-47cd-bcc0-4e5f902b99e4">
+		<Name>Подарки</Name>
+		<Code>000000004</Code>
+		<Description>Подарки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0b0d0c94-c4d6-43bd-a225-2635034b20cf">
+		<Name>ПрочиеПоступления</Name>
+		<Code>000000005</Code>
+		<Description>Прочие поступления</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

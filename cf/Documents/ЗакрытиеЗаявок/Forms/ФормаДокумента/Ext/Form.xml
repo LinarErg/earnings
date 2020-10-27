@@ -4,6 +4,10 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -22,6 +26,12 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ЗаказчикКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ЗаказчикРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="СуммаИтого" id="37">
+			<DataPath>Объект.СуммаИтого</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="СуммаИтогоКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="СуммаИтогоРасширеннаяПодсказка" id="39"/>
 		</InputField>
 		<Table name="ЗаявкиДляЗакрытия" id="10">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -78,17 +88,17 @@
 					<ContextMenu name="ЗаявкиДляЗакрытияЗаявкаКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ЗаявкиДляЗакрытияЗаявкаРасширеннаяПодсказка" id="28"/>
 				</InputField>
-				<InputField name="ЗаявкиДляЗакрытияВыполненнаяРабота" id="29">
-					<DataPath>Объект.ЗаявкиДляЗакрытия.ВыполненнаяРабота</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ЗаявкиДляЗакрытияВыполненнаяРаботаКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="ЗаявкиДляЗакрытияВыполненнаяРаботаРасширеннаяПодсказка" id="31"/>
-				</InputField>
 				<InputField name="ЗаявкиДляЗакрытияЗакрытаяСумма" id="32">
 					<DataPath>Объект.ЗаявкиДляЗакрытия.ЗакрытаяСумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ЗаявкиДляЗакрытияЗакрытаяСуммаКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ЗаявкиДляЗакрытияЗакрытаяСуммаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ЗаявкиДляЗакрытияВыполненнаяРабота" id="29">
+					<DataPath>Объект.ЗаявкиДляЗакрытия.ВыполненнаяРабота</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗаявкиДляЗакрытияВыполненнаяРаботаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЗаявкиДляЗакрытияВыполненнаяРаботаРасширеннаяПодсказка" id="31"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -132,6 +142,11 @@
 			</Item>
 			<Item>
 				<Command>AccumulationRegister.Заявки.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.ПоступленияДенег.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
