@@ -5,6 +5,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.ДатаЗапретаИЗменения</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.Пароли</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
@@ -33,6 +37,10 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.РегулярныйРасход</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ВидыДоходов</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
@@ -54,6 +62,10 @@
 	</Item>
 	<Item>
 		<Metadata>AccumulationRegister.Заявки</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Пользователи</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 </ExchangePlanContent>

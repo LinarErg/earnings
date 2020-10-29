@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <StandaloneContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<UsedItem>
-		<Metadata>DataProcessor.обВыполненныеРаботы</Metadata>
+		<Metadata>Document.Заявки.Form.ФормаСписка</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Catalog.Пароли.Attribute.Пароль</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>Document.Заявки.Form.ФормаСписка</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>AccumulationRegister.Заявки.Dimension.Заявка</Metadata>
@@ -28,6 +25,12 @@
 		<Metadata>Document.РасходДенег.Attribute.Сумма</Metadata>
 	</UsedItem>
 	<UsedItem>
+		<Metadata>Subsystem.Заработок.Subsystem.Справочники</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>AccumulationRegister.РасходДенег.Resource.СуммаРасхода</Metadata>
+	</UsedItem>
+	<UsedItem>
 		<Metadata>AccumulationRegister.Заявки</Metadata>
 	</UsedItem>
 	<UsedItem>
@@ -43,9 +46,6 @@
 		<Metadata>Catalog.Пароли.Attribute.Комментарий</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>DataProcessor.обДолги</Metadata>
-	</UsedItem>
-	<UsedItem>
 		<Metadata>Document.ЗакрытиеЗаявок.Form.ФормаДокумента</Metadata>
 	</UsedItem>
 	<UsedItem>
@@ -55,13 +55,13 @@
 		<Metadata>Document.Заявки.Attribute.Заказчик</Metadata>
 	</UsedItem>
 	<UsedItem>
+		<Metadata>Catalog.Пользователи</Metadata>
+	</UsedItem>
+	<UsedItem>
 		<Metadata>Document.Заявки.Attribute.ВыполненнаяРабота</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Document.Заявки.Attribute.Сумма</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обЗаработок.Attribute.ВариантГруппировки</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Document.ЗакрытиеЗаявок.TabularSection.ЗаявкиДляЗакрытия</Metadata>
@@ -85,9 +85,6 @@
 		<Metadata>Document.ЗакрытиеЗаявок.Attribute.Заказчик</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>DataProcessor.обДоходыРасходы.Attribute.НачалоПериода</Metadata>
-	</UsedItem>
-	<UsedItem>
 		<Metadata>Document.ЗакрытиеЗаявок.TabularSection.ЗаявкиДляЗакрытия.Attribute.Заявка</Metadata>
 	</UsedItem>
 	<UsedItem>
@@ -97,9 +94,6 @@
 		<Metadata>Document.ЗакрытиеЗаявок.Form.ФормаСписка</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>DataProcessor.РабочийСтол.Form.Форма</Metadata>
-	</UsedItem>
-	<UsedItem>
 		<Metadata>Document.ПоступлениеДенег.Form.ФормаДокумента</Metadata>
 	</UsedItem>
 	<UsedItem>
@@ -107,9 +101,6 @@
 	</UsedItem>
 	<UsedItem>
 		<Metadata>AccumulationRegister.ПоступленияДенег.Dimension.ВидДоходов</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обДоходыРасходы.Attribute.КонецПериода</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Document.ПоступлениеДенег</Metadata>
@@ -127,10 +118,13 @@
 		<Metadata>Document.РасходДенег</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>DataProcessor.обЗаработок.Template.Макет</Metadata>
+		<Metadata>Constant.ДатаЗапретаИЗменения</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Document.РасходДенег.Attribute.Комментарий</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>Catalog.РегулярныйРасход</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>AccumulationRegister.Заявки.Resource.Сумма</Metadata>
@@ -151,40 +145,25 @@
 		<Metadata>AccumulationRegister.Заработок.Resource.Сумма</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>DataProcessor.обДоходыРасходы</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.РабочийСтол</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обДолги.Form.Форма</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обДолги.Template.Макет</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обЗаработок</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обЗаработок.Form.Форма</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обВыполненныеРаботы.Form.Форма</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обДоходыРасходы.Form.Форма</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>DataProcessor.обДоходыРасходы.Template.Макет</Metadata>
-	</UsedItem>
-	<UsedItem>
 		<Metadata>InformationRegister.РегулярныеРасходы</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>Catalog.Логины</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>InformationRegister.РегулярныеРасходы.Resource.СуммаРасхода</Metadata>
 	</UsedItem>
 	<UsedItem>
+		<Metadata>EventSubscription.ПроверкаНаДатуЗапрета</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>AccumulationRegister.РасходДенег.Dimension.СтатьяРасходов</Metadata>
+	</UsedItem>
+	<UsedItem>
 		<Metadata>AccumulationRegister.Заработок</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>Catalog.РегулярныйРасход.Attribute.СтатьяРасходов</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>AccumulationRegister.Заработок.Dimension.Заказчик</Metadata>
@@ -199,22 +178,19 @@
 		<Metadata>AccumulationRegister.РасходДенег</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>EventSubscription.ПроверкаНаДатуЗапрета</Metadata>
+		<Metadata>Catalog.ВидыДоходов</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>AccumulationRegister.РасходДенег.Dimension.СтатьяРасходов</Metadata>
+		<Metadata>Catalog.Пароли.Attribute.Учетка</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>AccumulationRegister.РасходДенег.Resource.СуммаРасхода</Metadata>
+		<Metadata>Catalog.Пароли</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Constant.ДатаЗапретаИЗменения</Metadata>
+		<Metadata>Catalog.Пароли.Form.ФормаСписка</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Subsystem.Заработок</Metadata>
-	</UsedItem>
-	<UsedItem>
-		<Metadata>Subsystem.Заработок.Subsystem.Справочники</Metadata>
 	</UsedItem>
 	<UsedItem>
 		<Metadata>Subsystem.Заработок.Subsystem.Документы</Metadata>
@@ -232,6 +208,9 @@
 		<Metadata>CommonModule.ОбщегоНазначенияСервер</Metadata>
 	</UsedItem>
 	<UsedItem>
+		<Metadata>SessionParameter.ТекущийПользователь</Metadata>
+	</UsedItem>
+	<UsedItem>
 		<Metadata>Role.ПолныеПрава</Metadata>
 	</UsedItem>
 	<UsedItem>
@@ -244,24 +223,78 @@
 		<Metadata>ExchangePlan.ОбменСАвтономнымСервером</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.ВидыДоходов</Metadata>
+		<Metadata>EventSubscription.УстановкаАвтораДокумента</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.Логины</Metadata>
+		<Metadata>DataProcessor.РабочийСтол</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.Пароли</Metadata>
+		<Metadata>DataProcessor.РабочийСтол.Form.Форма</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.Пароли.Attribute.Учетка</Metadata>
+		<Metadata>DataProcessor.обДолги</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.Пароли.Form.ФормаСписка</Metadata>
+		<Metadata>DataProcessor.обДолги.Form.Форма</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.РегулярныйРасход</Metadata>
+		<Metadata>DataProcessor.обДолги.Template.Макет</Metadata>
 	</UsedItem>
 	<UsedItem>
-		<Metadata>Catalog.РегулярныйРасход.Attribute.СтатьяРасходов</Metadata>
+		<Metadata>DataProcessor.обЗаработок</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обЗаработок.Attribute.ВариантГруппировки</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обЗаработок.Form.Форма</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обЗаработок.Template.Макет</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обВыполненныеРаботы</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обВыполненныеРаботы.Form.Форма</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обДоходыРасходы</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обДоходыРасходы.Attribute.НачалоПериода</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обДоходыРасходы.Attribute.КонецПериода</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обДоходыРасходы.Form.Форма</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.обДоходыРасходы.Template.Макет</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.Служебная</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>DataProcessor.Служебная.Form.Форма</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>CommonModule.ОбменМобильныйАвтономныйСервер</Metadata>
+		<Priority>LocalServer</Priority>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>CommonModule.ОбменМобильныйАвтономныйКлиент</Metadata>
+		<Priority>LocalServer</Priority>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>Constant.НаименованиеУстройства</Metadata>
+		<Priority>LocalServer</Priority>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>CommonModule.ОбменМобильныеОбщее</Metadata>
+	</UsedItem>
+	<UsedItem>
+		<Metadata>Subsystem.Обмен</Metadata>
 	</UsedItem>
 </StandaloneContent>

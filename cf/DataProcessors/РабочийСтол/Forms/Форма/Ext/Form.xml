@@ -12,6 +12,7 @@
 					<v8:content>Группа страницы</v8:content>
 				</v8:item>
 			</Title>
+			<TitleFont ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -84,9 +85,14 @@
 											<DataPath>ПредставлениеДаты</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<HorizontalAlign>Center</HorizontalAlign>
+											<Hiperlink>true</Hiperlink>
 											<Font ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 											<ContextMenu name="ПредставлениеДатыКонтекстноеМеню" id="55"/>
 											<ExtendedTooltip name="ПредставлениеДатыРасширеннаяПодсказка" id="56"/>
+											<Events>
+												<Event name="URLProcessing">ПредставлениеДатыОбработкаНавигационнойСсылки</Event>
+												<Event name="Click">ПредставлениеДатыНажатие</Event>
+											</Events>
 										</LabelField>
 										<Button name="ДобавитьМесяц" id="57">
 											<Type>UsualButton</Type>
@@ -174,8 +180,32 @@
 															<v8:content>План</v8:content>
 														</v8:item>
 													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сумма предполагаемых расходов за текущий месяц</v8:content>
+														</v8:item>
+													</ToolTip>
 													<ContextMenu name="НеУчтенныйРасходКонтекстноеМеню" id="66"/>
 													<ExtendedTooltip name="НеУчтенныйРасходРасширеннаяПодсказка" id="67"/>
+												</InputField>
+												<InputField name="СуммаПереводаНаИнвестиции" id="75">
+													<DataPath>СуммаПереводаНаИнвестиции</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Инвестиции</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сумма переводов на брокерский счет</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ContextMenu name="СуммаПереводаНаИнвестицииКонтекстноеМеню" id="76"/>
+													<ExtendedTooltip name="СуммаПереводаНаИнвестицииРасширеннаяПодсказка" id="77"/>
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
@@ -197,6 +227,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаДоходыРасходыДокументыРасширеннаяПодсказка" id="31"/>
 							<ChildItems>
 								<Button name="ОткрытьСписокДоходы" id="26">
@@ -246,6 +277,7 @@
 									<v8:content>Группа доходы расходы отчеты</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаДоходыРасходыОтчетыРасширеннаяПодсказка" id="33"/>
 							<ChildItems>
 								<Button name="ОткрытьОтчетДоходыРасходы" id="40">
@@ -274,6 +306,9 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаДоходыРасходыСправочникиРасширеннаяПодсказка" id="35"/>
 							<ChildItems>
 								<Button name="ОткрытьВидыДоходов" id="36">
@@ -339,6 +374,9 @@
 									<v8:content>Группа регулярные расходы</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаРегулярныеРасходыРасширеннаяПодсказка" id="62"/>
 							<ChildItems>
 								<Button name="ОткрытьРегистрРегулярныеРасходы" id="63">
@@ -389,6 +427,7 @@
 									<v8:content>Группа долги</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаДолгиРасширеннаяПодсказка" id="12"/>
 							<ChildItems>
 								<InputField name="СуммаДолга" id="15">
@@ -423,6 +462,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаДокументыРасширеннаяПодсказка" id="4"/>
 							<ChildItems>
 								<Button name="ОткрытьСписокЗаявок" id="1">
@@ -473,6 +513,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаОтчетыРасширеннаяПодсказка" id="8"/>
 							<ChildItems>
 								<Button name="ОткрытьОбработкуДолги" id="9">
@@ -613,6 +654,22 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разность доход расход</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СуммаПереводаНаИнвестиции" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма перевода на инвестиции</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

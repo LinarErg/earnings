@@ -54,6 +54,11 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="Автор" id="24">
+			<DataPath>Объект.Автор</DataPath>
+			<ContextMenu name="АвторКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="26"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

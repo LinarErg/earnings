@@ -176,7 +176,12 @@
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
-			<Copyright/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ергашев Линар</v8:content>
+				</v8:item>
+			</Copyright>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -192,19 +197,28 @@
 			<Subsystem>Заработок</Subsystem>
 			<Subsystem>Пароли</Subsystem>
 			<Subsystem>УчетДоходовРасходов</Subsystem>
+			<Subsystem>Обмен</Subsystem>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<Role>Пароли</Role>
 			<Role>Заработок</Role>
+			<CommonModule>ОбменМобильныеОбщее</CommonModule>
+			<CommonModule>ОбменМобильныйАвтономныйКлиент</CommonModule>
+			<CommonModule>ОбменМобильныйАвтономныйСервер</CommonModule>
+			<CommonModule>ОбменМобильныйВызовПК</CommonModule>
 			<CommonModule>ОбщегоНазначенияСервер</CommonModule>
 			<ExchangePlan>ОбменСАвтономнымСервером</ExchangePlan>
 			<EventSubscription>ПроверкаНаДатуЗапрета</EventSubscription>
+			<EventSubscription>УстановкаАвтораДокумента</EventSubscription>
 			<Constant>ДатаЗапретаИЗменения</Constant>
+			<Constant>НаименованиеУстройства</Constant>
 			<Catalog>ВидыДоходов</Catalog>
 			<Catalog>Заказчики</Catalog>
 			<Catalog>Логины</Catalog>
 			<Catalog>Пароли</Catalog>
 			<Catalog>СтатьиРасходов</Catalog>
 			<Catalog>РегулярныйРасход</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Document>Заявки</Document>
 			<Document>ЗакрытиеЗаявок</Document>
 			<Document>ПоступлениеДенег</Document>
@@ -215,6 +229,7 @@
 			<DataProcessor>обЗаработок</DataProcessor>
 			<DataProcessor>обВыполненныеРаботы</DataProcessor>
 			<DataProcessor>обДоходыРасходы</DataProcessor>
+			<DataProcessor>Служебная</DataProcessor>
 			<InformationRegister>РегулярныеРасходы</InformationRegister>
 			<AccumulationRegister>Заработок</AccumulationRegister>
 			<AccumulationRegister>Заявки</AccumulationRegister>

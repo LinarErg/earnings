@@ -102,6 +102,11 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="Автор" id="40">
+			<DataPath>Объект.Автор</DataPath>
+			<ContextMenu name="АвторКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="42"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

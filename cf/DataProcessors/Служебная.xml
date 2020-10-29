@@ -1,31 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
-	<Subsystem uuid="7ac202ac-cd7c-4646-80df-c68ae4de537e">
+	<DataProcessor uuid="d0b72c3d-331a-4185-849f-0ad026ce58c2">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.Служебная" category="Object">
+				<xr:TypeId>a4e3e477-f9a8-40c5-b59a-c90f5cbc26d0</xr:TypeId>
+				<xr:ValueId>94407858-0083-4cae-9bae-f1d807ac912c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.Служебная" category="Manager">
+				<xr:TypeId>1f8511e6-7f28-45f4-aebc-1f8f60dbce98</xr:TypeId>
+				<xr:ValueId>1b0ae58a-ac77-468c-abd8-7b2e26eb3c82</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>Заработок</Name>
+			<Name>Служебная</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заработок</v8:content>
+					<v8:content>Служебная</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.Служебная.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
 			<Explanation/>
-			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменСАвтономнымСервером</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДатаЗапретаИЗменения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Служебная</xr:Item>
-			</Content>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>Справочники</Subsystem>
-			<Subsystem>Документы</Subsystem>
-			<Subsystem>Отчеты</Subsystem>
-			<Subsystem>Обработки</Subsystem>
+			<Form>Форма</Form>
 		</ChildObjects>
-	</Subsystem>
+	</DataProcessor>
 </MetaDataObject>
