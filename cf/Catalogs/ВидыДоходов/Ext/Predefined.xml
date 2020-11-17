@@ -30,4 +30,10 @@
 		<Description>Прочие поступления</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="d8b717ae-3ab6-4449-829c-445d38e8fd6e">
+		<Name>СоцВыплаты</Name>
+		<Code>000000006</Code>
+		<Description>Соц выплаты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

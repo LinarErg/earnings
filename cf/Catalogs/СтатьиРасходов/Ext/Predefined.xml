@@ -6,6 +6,12 @@
 		<Description>Бензин</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b06c763a-14e3-4281-9c58-d8503f3b59ea">
+		<Name>ДетСад</Name>
+		<Code>000000018</Code>
+		<Description>Дет сад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="9635c031-9d7e-48ba-b089-7bc8c7574095">
 		<Name>ДетскиеТовары</Name>
 		<Code>000000011</Code>
@@ -54,10 +60,10 @@
 		<Description>Красота</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="a80eba40-0cce-423b-a255-62c5864fba07">
-		<Name>ОбслуживаниеАвто</Name>
-		<Code>000000004</Code>
-		<Description>Обслуживание авто</Description>
+	<Item id="fa012703-7af5-4452-a296-745464d08bb9">
+		<Name>Налоги</Name>
+		<Code>000000017</Code>
+		<Description>Налоги</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="07d84cea-77b0-4961-9fee-0e78e376af07">
@@ -82,6 +88,12 @@
 		<Name>ПрочиеРасходы</Name>
 		<Code>000000013</Code>
 		<Description>Прочие расходы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a80eba40-0cce-423b-a255-62c5864fba07">
+		<Name>РасходыНаАвто</Name>
+		<Code>000000004</Code>
+		<Description>Расходы на авто</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="dbe05a6c-cda6-4fa0-937c-380dc03bca95">

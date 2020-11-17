@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>5</size>
+		<size>3</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -29,18 +29,6 @@
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
-		<columnsItem>
-			<index>3</index>
-			<column>
-				<formatIndex>2</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>4</index>
-			<column>
-				<formatIndex>3</formatIndex>
-			</column>
-		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
@@ -53,16 +41,6 @@
 		<row>
 			<c>
 				<i>1</i>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>4</f>
 				</c>
@@ -105,16 +83,6 @@
 					<f>4</f>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -122,16 +90,6 @@
 		<row>
 			<c>
 				<i>1</i>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>4</f>
 				</c>
@@ -153,18 +111,6 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Доходы</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>3</i>
-				<c>
-					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
 							<v8:content>Расходы</v8:content>
 						</v8:item>
 					</tl>
@@ -177,28 +123,6 @@
 		<row>
 			<c>
 				<i>1</i>
-				<c>
-					<f>7</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид Дохода</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>7</f>
 					<tl>
@@ -236,16 +160,6 @@
 					<f>4</f>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>4</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -256,29 +170,7 @@
 				<i>1</i>
 				<c>
 					<f>10</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ИТОГО:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
-					<parameter>СуммаД</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>10</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ИТОГО:</v8:content>
-						</v8:item>
-					</tl>
+					<parameter>СтатьяРасхода</parameter>
 				</c>
 			</c>
 			<c>
@@ -303,16 +195,6 @@
 					<f>12</f>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>12</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>12</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -321,18 +203,6 @@
 			<formatIndex>13</formatIndex>
 			<c>
 				<i>1</i>
-				<c>
-					<f>14</f>
-					<parameter>ВидДохода</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>15</f>
-					<parameter>СуммаД</parameter>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>14</f>
 					<parameter>СтатьяРасхода</parameter>
@@ -360,16 +230,6 @@
 					<f>16</f>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>16</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>16</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -378,18 +238,6 @@
 			<formatIndex>13</formatIndex>
 			<c>
 				<i>1</i>
-				<c>
-					<f>14</f>
-					<parameter>ВидДохода</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>15</f>
-					<parameter>СуммаД</parameter>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>17</f>
 					<parameter>СтатьяРасхода</parameter>
@@ -415,18 +263,6 @@
 			<formatIndex>13</formatIndex>
 			<c>
 				<i>1</i>
-				<c>
-					<f>14</f>
-					<parameter>ВидДохода</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>15</f>
-					<parameter>СуммаД</parameter>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>19</f>
 					<parameter>СтатьяРасхода</parameter>
@@ -460,16 +296,6 @@
 					<f>21</f>
 				</c>
 			</c>
-			<c>
-				<c>
-					<f>21</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>21</f>
-				</c>
-			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
@@ -479,16 +305,11 @@
 	<merge>
 		<r>2</r>
 		<c>1</c>
-		<w>3</w>
-	</merge>
-	<merge>
-		<r>5</r>
-		<c>1</c>
 		<w>1</w>
 	</merge>
 	<merge>
 		<r>5</r>
-		<c>3</c>
+		<c>1</c>
 		<w>1</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
@@ -568,6 +389,7 @@
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<font faceName="Times New Roman" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Times New Roman" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Times New Roman" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -579,10 +401,10 @@
 		<width>23</width>
 	</format>
 	<format>
-		<width>112</width>
+		<width>182</width>
 	</format>
 	<format>
-		<width>70</width>
+		<width>134</width>
 	</format>
 	<format>
 		<font>0</font>
@@ -590,11 +412,10 @@
 	<format>
 		<font>1</font>
 		<horizontalAlignment>Center</horizontalAlignment>
-		<textPlacement>Wrap</textPlacement>
 		<fillType>Template</fillType>
 	</format>
 	<format>
-		<font>1</font>
+		<font>2</font>
 		<leftBorder>0</leftBorder>
 		<topBorder>0</topBorder>
 		<rightBorder>0</rightBorder>
@@ -603,39 +424,40 @@
 		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
-		<font>1</font>
+		<font>2</font>
 		<leftBorder>0</leftBorder>
 		<topBorder>1</topBorder>
 		<rightBorder>1</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-	</format>
-	<format>
-		<font>1</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<font>2</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<font>3</font>
+	</format>
+	<format>
+		<font>4</font>
 		<leftBorder>0</leftBorder>
 		<topBorder>0</topBorder>
 		<rightBorder>1</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<width>112</width>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
-		<font>3</font>
+		<font>4</font>
 		<leftBorder>1</leftBorder>
 		<topBorder>0</topBorder>
 		<rightBorder>0</rightBorder>
@@ -651,35 +473,7 @@
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
-		<font>4</font>
-	</format>
-	<format>
 		<font>5</font>
-		<leftBorder>0</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>1</bottomBorder>
-		<width>112</width>
-		<horizontalAlignment>Left</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
-	</format>
-	<format>
-		<font>5</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>1</bottomBorder>
-		<width>87</width>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
-	</format>
-	<format>
-		<font>5</font>
-		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<font>6</font>
@@ -690,7 +484,6 @@
 		<width>112</width>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#B7B7B7</textColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
@@ -702,6 +495,22 @@
 		<bottomBorder>1</bottomBorder>
 		<width>87</width>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>6</font>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>7</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<width>112</width>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>#B7B7B7</textColor>
 		<textPlacement>Wrap</textPlacement>
@@ -709,6 +518,19 @@
 	</format>
 	<format>
 		<font>7</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<width>87</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#B7B7B7</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>8</font>
 		<leftBorder>0</leftBorder>
 		<topBorder>1</topBorder>
 		<rightBorder>1</rightBorder>
@@ -721,7 +543,7 @@
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
-		<font>7</font>
+		<font>8</font>
 		<leftBorder>1</leftBorder>
 		<topBorder>1</topBorder>
 		<rightBorder>0</rightBorder>

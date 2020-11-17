@@ -24,6 +24,9 @@
 			<DataPath>Объект.РегулярныйРасход</DataPath>
 			<ContextMenu name="РегулярныйРасходКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="РегулярныйРасходРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="OnChange">РегулярныйРасходПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="СтатьяРасходов" id="10">
 			<DataPath>Объект.СтатьяРасходов</DataPath>

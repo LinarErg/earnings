@@ -224,11 +224,12 @@
 			<Document>ПоступлениеДенег</Document>
 			<Document>РасходДенег</Document>
 			<Enum>ВариантыГруппировкиОтчетаЗаработок</Enum>
-			<DataProcessor>РабочийСтол</DataProcessor>
-			<DataProcessor>обДолги</DataProcessor>
-			<DataProcessor>обЗаработок</DataProcessor>
 			<DataProcessor>обВыполненныеРаботы</DataProcessor>
+			<DataProcessor>обДолги</DataProcessor>
 			<DataProcessor>обДоходыРасходы</DataProcessor>
+			<DataProcessor>обЗаработок</DataProcessor>
+			<DataProcessor>обРасходы</DataProcessor>
+			<DataProcessor>РабочийСтол</DataProcessor>
 			<DataProcessor>Служебная</DataProcessor>
 			<InformationRegister>РегулярныеРасходы</InformationRegister>
 			<AccumulationRegister>Заработок</AccumulationRegister>

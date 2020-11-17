@@ -172,7 +172,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.обДоходыРасходы</v8:Type>
+				<v8:Type>cfg:DataProcessorObject.обРасходы</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>

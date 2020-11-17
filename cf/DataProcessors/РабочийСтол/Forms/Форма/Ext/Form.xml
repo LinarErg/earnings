@@ -292,6 +292,22 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
+						<Button name="ОткрытьОтчетРасходы" id="78">
+							<Type>UsualButton</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>Form.Command.ОткрытьОтчетРасходы</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.Report</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расходы</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ОткрытьОтчетРасходыРасширеннаяПодсказка" id="79"/>
+						</Button>
 						<UsualGroup name="ГруппаДоходыРасходыСправочники" id="34">
 							<Title>
 								<v8:item>
@@ -967,6 +983,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьСправочникРегулярныеРасходы</Action>
+		</Command>
+		<Command name="ОткрытьОтчетРасходы" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть отчет расходы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть отчет расходы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОтчетРасходы</Action>
 		</Command>
 	</Commands>
 </Form>
