@@ -86,7 +86,7 @@
 											<TitleLocation>None</TitleLocation>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<Hiperlink>true</Hiperlink>
-											<Font ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Font ref="style:NormalTextFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 											<ContextMenu name="ПредставлениеДатыКонтекстноеМеню" id="55"/>
 											<ExtendedTooltip name="ПредставлениеДатыРасширеннаяПодсказка" id="56"/>
 											<Events>
@@ -129,18 +129,123 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСуммыДоходовРасходовРасширеннаяПодсказка" id="51"/>
 									<ChildItems>
-										<InputField name="СуммаДоходов" id="44">
-											<DataPath>СуммаДоходов</DataPath>
-											<ReadOnly>true</ReadOnly>
+										<UsualGroup name="ГруппаДоход" id="80">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Доход</v8:content>
+													<v8:content>Группа доход</v8:content>
 												</v8:item>
 											</Title>
-											<ContextMenu name="СуммаДоходовКонтекстноеМеню" id="45"/>
-											<ExtendedTooltip name="СуммаДоходовРасширеннаяПодсказка" id="46"/>
-										</InputField>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа доход</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаДоходРасширеннаяПодсказка" id="81"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаДоходСуммы" id="84">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа доход суммы</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа доход суммы</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Height>6</Height>
+													<VerticalStretch>false</VerticalStretch>
+													<Group>Vertical</Group>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаДоходСуммыРасширеннаяПодсказка" id="85"/>
+													<ChildItems>
+														<InputField name="СуммаДоходов" id="44">
+															<DataPath>СуммаДоходов</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доход</v8:content>
+																</v8:item>
+															</Title>
+															<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Общие доходы за месяц</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<ContextMenu name="СуммаДоходовКонтекстноеМеню" id="45"/>
+															<ExtendedTooltip name="СуммаДоходовРасширеннаяПодсказка" id="46"/>
+														</InputField>
+														<PictureDecoration name="Декорация1" id="94">
+															<Height>2</Height>
+															<ContextMenu name="Декорация1КонтекстноеМеню" id="95"/>
+															<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="96"/>
+														</PictureDecoration>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаДоходКнопки" id="82">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа доход кнопки</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа доход кнопки</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаДоходКнопкиРасширеннаяПодсказка" id="83"/>
+													<ChildItems>
+														<Button name="ДокументПоступлениеДенегСоздать" id="92">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Document.ПоступлениеДенег.StandardCommand.Create</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доход</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ДокументПоступлениеДенегСоздатьРасширеннаяПодсказка" id="93"/>
+														</Button>
+														<Button name="ОткрытьСписокДоходы" id="26">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.ОткрытьСписокДоходы</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.Document</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список доходов</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ОткрытьСписокДоходыРасширеннаяПодсказка" id="27"/>
+														</Button>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="ГруппаРасход" id="68">
 											<Title>
 												<v8:item>
@@ -155,113 +260,146 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
-											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРасходРасширеннаяПодсказка" id="69"/>
 											<ChildItems>
-												<InputField name="СуммаРасходов" id="47">
-													<DataPath>СуммаРасходов</DataPath>
-													<ReadOnly>true</ReadOnly>
+												<UsualGroup name="ГруппаРасходСуммы" id="86">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Расход</v8:content>
-														</v8:item>
-													</Title>
-													<ContextMenu name="СуммаРасходовКонтекстноеМеню" id="48"/>
-													<ExtendedTooltip name="СуммаРасходовРасширеннаяПодсказка" id="49"/>
-												</InputField>
-												<InputField name="НеУчтенныйРасход" id="65">
-													<DataPath>НеУчтенныйРасход</DataPath>
-													<ReadOnly>true</ReadOnly>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>План</v8:content>
+															<v8:content>Группа расход суммы</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Сумма предполагаемых расходов за текущий месяц</v8:content>
+															<v8:content>Группа расход суммы</v8:content>
 														</v8:item>
 													</ToolTip>
-													<ContextMenu name="НеУчтенныйРасходКонтекстноеМеню" id="66"/>
-													<ExtendedTooltip name="НеУчтенныйРасходРасширеннаяПодсказка" id="67"/>
-												</InputField>
-												<InputField name="СуммаПереводаНаИнвестиции" id="75">
-													<DataPath>СуммаПереводаНаИнвестиции</DataPath>
-													<ReadOnly>true</ReadOnly>
+													<Height>6</Height>
+													<VerticalStretch>false</VerticalStretch>
+													<Group>Vertical</Group>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаРасходСуммыРасширеннаяПодсказка" id="87"/>
+													<ChildItems>
+														<InputField name="СуммаРасходов" id="47">
+															<DataPath>СуммаРасходов</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Расход</v8:content>
+																</v8:item>
+															</Title>
+															<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Расходы с учетом инвестиций, план не учтен</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<ContextMenu name="СуммаРасходовКонтекстноеМеню" id="48"/>
+															<ExtendedTooltip name="СуммаРасходовРасширеннаяПодсказка" id="49"/>
+														</InputField>
+														<InputField name="СуммаПереводаНаИнвестиции" id="75">
+															<DataPath>СуммаПереводаНаИнвестиции</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Инвест</v8:content>
+																</v8:item>
+															</Title>
+															<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сумма переводов на брокерский счет</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<ContextMenu name="СуммаПереводаНаИнвестицииКонтекстноеМеню" id="76"/>
+															<ExtendedTooltip name="СуммаПереводаНаИнвестицииРасширеннаяПодсказка" id="77"/>
+														</InputField>
+														<InputField name="НеУчтенныйРасход" id="65">
+															<DataPath>НеУчтенныйРасход</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>План</v8:content>
+																</v8:item>
+															</Title>
+															<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сумма предполагаемых расходов за текущий месяц</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<ContextMenu name="НеУчтенныйРасходКонтекстноеМеню" id="66"/>
+															<ExtendedTooltip name="НеУчтенныйРасходРасширеннаяПодсказка" id="67"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаРасходКнопки" id="88">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Инвестиции</v8:content>
+															<v8:content>Группа расход кнопки</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Сумма переводов на брокерский счет</v8:content>
+															<v8:content>Группа расход кнопки</v8:content>
 														</v8:item>
 													</ToolTip>
-													<ContextMenu name="СуммаПереводаНаИнвестицииКонтекстноеМеню" id="76"/>
-													<ExtendedTooltip name="СуммаПереводаНаИнвестицииРасширеннаяПодсказка" id="77"/>
-												</InputField>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаРасходКнопкиРасширеннаяПодсказка" id="89"/>
+													<ChildItems>
+														<Button name="ДокументРасходДенегСоздать" id="90">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Document.РасходДенег.StandardCommand.Create</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Расход</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ДокументРасходДенегСоздатьРасширеннаяПодсказка" id="91"/>
+														</Button>
+														<Button name="ОткрытьСписокРасходы" id="28">
+															<Type>UsualButton</Type>
+															<Representation>PictureAndText</Representation>
+															<CommandName>Form.Command.ОткрытьСписокРасходы</CommandName>
+															<Picture>
+																<xr:Ref>StdPicture.Document</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список расходов</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ОткрытьСписокРасходыРасширеннаяПодсказка" id="29"/>
+														</Button>
+													</ChildItems>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаДоходыРасходыДокументы" id="30">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Документы</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа доходы расходы документы</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<Representation>NormalSeparation</Representation>
-							<ExtendedTooltip name="ГруппаДоходыРасходыДокументыРасширеннаяПодсказка" id="31"/>
-							<ChildItems>
-								<Button name="ОткрытьСписокДоходы" id="26">
-									<Type>UsualButton</Type>
-									<Representation>PictureAndText</Representation>
-									<CommandName>Form.Command.ОткрытьСписокДоходы</CommandName>
-									<Picture>
-										<xr:Ref>StdPicture.Document</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</Picture>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Доходы</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ОткрытьСписокДоходыРасширеннаяПодсказка" id="27"/>
-								</Button>
-								<Button name="ОткрытьСписокРасходы" id="28">
-									<Type>UsualButton</Type>
-									<Representation>PictureAndText</Representation>
-									<CommandName>Form.Command.ОткрытьСписокРасходы</CommandName>
-									<Picture>
-										<xr:Ref>StdPicture.Document</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</Picture>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Расходы</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ОткрытьСписокРасходыРасширеннаяПодсказка" id="29"/>
-								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаДоходыРасходыОтчеты" id="32">
@@ -277,6 +415,7 @@
 									<v8:content>Группа доходы расходы отчеты</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>Vertical</Group>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаДоходыРасходыОтчетыРасширеннаяПодсказка" id="33"/>
 							<ChildItems>
@@ -290,24 +429,24 @@
 									</Picture>
 									<ExtendedTooltip name="ОткрытьОтчетДоходыРасходыРасширеннаяПодсказка" id="41"/>
 								</Button>
+								<Button name="ОткрытьОтчетРасходы" id="78">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОткрытьОтчетРасходы</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Report</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расходы</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьОтчетРасходыРасширеннаяПодсказка" id="79"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<Button name="ОткрытьОтчетРасходы" id="78">
-							<Type>UsualButton</Type>
-							<Representation>PictureAndText</Representation>
-							<CommandName>Form.Command.ОткрытьОтчетРасходы</CommandName>
-							<Picture>
-								<xr:Ref>StdPicture.Report</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Расходы</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ОткрытьОтчетРасходыРасширеннаяПодсказка" id="79"/>
-						</Button>
 						<UsualGroup name="ГруппаДоходыРасходыСправочники" id="34">
 							<Title>
 								<v8:item>
